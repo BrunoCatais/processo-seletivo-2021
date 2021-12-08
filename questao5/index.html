@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1% 35%;
+}
+
+form {
+border: 3px solid #f1f1f1;
+border-radius: 25px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 16px 0;
+  display: inline-block;
+  border: 1.5px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #5f75f2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-align: center;
+  display: block;
+  font-size: 75%;
+  line-height: 200%;
+}
+
+#checkbox{
+    opacity: 0.6;
+    font-weight:bold;
+    font-size: 90%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container {
+  padding: 24px;
+}
+
+</style>
+</head>
+<body>
+
+<form action="/action_page.php" method="post">
+<h2>Autenticar-se</h2>
+
+  <div class="container">
+  
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="exemplo@email.com" name="email" required>
+
+    <label for="senha"><b>Senha</b></label>
+    <input type="password" placeholder="********" name="senha" required>
+        
+    
+    <label id="checkbox">
+      <input type="checkbox" name="manter"> Mantenha-me conectado
+    </label>
+    
+    <p>
+    <button type="submit">ENTRAR</button>
+    </p>
+    
+    <a href="#">Esqueceu sua senha?</a>
+    <a href="#">Não tem cadastro? Cadastre-se</a>
+    
+  </div>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+#nao ouve a necessidade de baixar e instalar nenhuma lib, o modulo difflib é nativo do Python3
