@@ -16,6 +16,7 @@ Instale as dependências da aplicação:
 Inicie o ambiente venv:
 
 Em MacOS e Linux usando o bash: 		'source /path/to/venv/bin/activate.'
+
 Em Windows usando o prompt de comando: 	'path\to\venv\Scripts\activate.bat.'
 
 Iniciar servidor:
